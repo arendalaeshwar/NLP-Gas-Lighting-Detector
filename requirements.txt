@@ -3,7 +3,7 @@ streamlit==1.32.0
 
 # NLP and Machine Learning
 transformers==4.38.0
-torch==2.2.1
+torch
 tensorflow-cpu==2.15.0
 
 # Language Processing
@@ -14,4 +14,5 @@ pandas==2.2.1
 numpy==1.26.4
 
 # Utilities
+
 protobuf==4.25.3
