@@ -28,7 +28,7 @@ def detect_gaslighting(text):
 st.set_page_config(page_title="Gaslighting Detector", page_icon="🛡️")
 
 st.title("🛡️ NLP Gaslighting Detector")
-st.markdown(f"**Project Lead:** A. Eshwar Chary")
+st.markdown(f"**Project By Batch 8")
 st.divider()
 
 user_input = st.text_area("Enter conversational text to analyze:", 
@@ -78,5 +78,6 @@ if st.button("Analyze Pattern", type="primary"):
                 st.error(f"An error occurred during analysis: {e}")
     else:
         st.warning("Please enter some text to begin analysis.")
+
 
 st.sidebar.info("This tool uses Natural Language Processing to identify psychological manipulation patterns in text.")
