@@ -28,7 +28,7 @@ def detect_gaslighting(text):
 st.set_page_config(page_title="Gaslighting Detector", page_icon="🛡️")
 
 st.title("🛡️ NLP Gaslighting Detector")
-st.markdown(f"**Project By Batch 8")
+st.markdown(f"**Project By Batch 8 /n Eshwar A (24895A6610)/n M Anil kumar(23891A66A0)/n K Manashwini(23891A66) /n M Renusri(23891A66")
 st.divider()
 
 user_input = st.text_area("Enter conversational text to analyze:", 
